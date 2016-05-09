@@ -1,0 +1,36 @@
+{
+  "name": "scene",
+  "version": "1.1.1",
+  "description": "scene: An Ionic project",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-clean-css": "^2.0.7",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "gulp-clean-css": "^2.0.7",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "shelljs": "^0.7.0"
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-device",
+    "cordova-plugin-crosswalk-webview",
+    "cordova-plugin-console",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "ionic-plugin-keyboard",
+    "nativepagetransitions",
+    {
+      "locator": "https://github.com/Telerik-Verified-Plugins/NativePageTransitions"
+    }
+  ],
+  "cordovaPlatforms": [
+    "android",
+    "ios"
+  ]
+}
